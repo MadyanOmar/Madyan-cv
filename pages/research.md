@@ -33,8 +33,7 @@ Isam Mashhour Al Jawarneh, **Madyan Omar Bagosher** (2027). "GeoAgent-MG-RAG: A 
 :::
 
 :::{dropdown} 2026
-**Madyan Omar Bagosher**, Osman Abul (2026). "Urban Genesis: Multi-Agent System for Business Consultancy " *2026 IEEE FMEC* [https://doi.org/10.1109/ISCC65549.2025.11325937](https://doi.org/10.1109/ISCC65549.2025.11325937)
-
+**Madyan Omar Bagosher**, Osman Abul (2026). "Urban Genesis: Multi-Agent System for Business Consultancy " *2026 IEEE FMEC*
 :::
 
 

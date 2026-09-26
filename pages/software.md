@@ -19,14 +19,12 @@ Several side projects built over the course of 4 years (Excluding research proje
 
 :::{card} Pathfinder Visualizer
 :link: https://github.com/MadyanOmar/PathfinderVisualizer
-![mystmd](images/GBFS.gif)
-Interactive pathfinding algorithm visualizer built with JavaFX, demonstrating BFS, DFS, Greedy Best first search and A star.
+(images/GBFS.gif)
 +++
 :::
 
 :::{card} Tic Tac Toe
 :link: https://github.com/MadyanOmar/Tic-Tac-Toe
-![jupyter-book](images/TicTacToe.gif)
-Tic tac toe game built with JavaFX, contains two player mode and single player mode against an AI.
+(images/TicTacToe.gif)
 +++
 :::
