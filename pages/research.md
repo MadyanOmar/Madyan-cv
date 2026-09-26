@@ -37,7 +37,6 @@ Isam Mashhour Al Jawarneh, **Madyan Omar Bagosher** (2027). "GeoAgent-MG-RAG: A 
 
 :::
 
----
 
 :::{dropdown} 2025
 
