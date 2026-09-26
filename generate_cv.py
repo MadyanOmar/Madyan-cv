@@ -204,20 +204,39 @@ def find_subsections(text):
 
 
 def parse_cards(text):
-    """Parse :::{card} blocks into list of (name, link, description)."""
+    """Parse MyST card blocks into (name, link, description)."""
     results = []
+
     for m in re.finditer(
-        r":::\{card\}[ \t]+([^\n]+?)\n:link:\s*(.+?)\n(.*?)\n:::(?![:\{])",
+        r":::\{card\}[ \t]+([^\n]+)\n"
+        r":link:\s*(.+?)\n"
+        r"(.*?)\n:::",
         text,
         re.DOTALL,
     ):
         name = m.group(1).strip()
         link = m.group(2).strip()
-        desc = m.group(3).strip()
-        desc = re.sub(r"```\{image\}.*?```", "", desc, flags=re.DOTALL)
-        desc = re.sub(r"\n+", " ", desc).strip()
-        if name:
-            results.append((name, link, desc))
+        body = m.group(3).strip()
+
+        # Remove MyST images
+        body = re.sub(r"!\[[^\]]*\]\([^)]+\)", "", body)
+
+        # Remove MyST content separator
+        body = re.sub(r"^\s*\+\+\+\s*$", "", body, flags=re.MULTILINE)
+
+        # Remove duplicate bold title if present in body
+        body = re.sub(
+            rf"\*\*{re.escape(name)}\*\*",
+            "",
+            body,
+            flags=re.IGNORECASE,
+        )
+
+        # Clean up whitespace
+        desc = re.sub(r"\n+", " ", body).strip()
+
+        results.append((name, link, desc))
+
     return results
 
 
