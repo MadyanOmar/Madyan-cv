@@ -465,27 +465,28 @@ def gen_software(software):
     cards = parse_cards(software)
     if not cards:
         return ""
+
     lines = ["= Featured Projects", ""]
     items = []
+
     for name, link, image, desc in cards:
         escaped_name = escape_typst(name)
         gh_path = link.replace("https://github.com/", "")
-        gh_inline = f'#box(baseline: 1pt, fa-icon("github", fill: color-darknight)) #link("{link}")[{gh_path}]'
+        gh_inline = (
+            f'#box(baseline: 1pt, fa-icon("github", fill: color-darknight)) '
+            f'#link("{link}")[{gh_path}]'
+        )
+
         if desc:
             project = (
-                f'#image("pages/{image}", width: 35%) '
-                f'\\\n'
                 f'*{escaped_name}*: {escape_typst(desc)} '
                 f'({gh_inline})'
             )
         else:
-            project = (
-                f'#image("pages/{image}", width: 35%) '
-                f'\\\n'
-                f'*{escaped_name}* ({gh_inline})'
-            )
+            project = f'*{escaped_name}* ({gh_inline})'
 
         items.append(f"  - {project}")
+
     lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
     return "\n".join(lines)
 
