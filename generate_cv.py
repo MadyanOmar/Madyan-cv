@@ -270,25 +270,23 @@ def gen_preamble():
 #show "Résumé": "CV"
 
 #show: resume.with(
-  font: {_typst_font_value(CV_FONT)},
-  header-font: {_typst_font_value(CV_HEADER_FONT)},
+  font: ("Source Sans Pro",),
+  header-font: "Source Sans Pro",
   author: (
-    firstname: "Jane",
-    lastname: "Doe",
-    email: "jane.doe@example.com",
-    phone: "(+1) 234-567-8901",
-    homepage: "https://example.com",
-    github: "username",
-    address: "123 Science Building, Example University, Anytown, ST 12345",
+    firstname: "Madyan",
+    lastname: "Bagosher",
+    email: "U23200049@sharjah.ac.ae",
+    github: "MadyanOmar",
+    address: "College of Computing & Informatics, A9, University City, Sharjah",
     positions: (
-      "Assistant Professor",
-      "Data Scientist",
+      "Research Assistant",
+      "Geospatial Scientist",
     ),
     custom: (
-      (text: "username", icon: "twitter", link: "https://twitter.com/username"),
-      (text: "Madyan Bagosher", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
-      (text: "Madyan Bagosher", icon: "google-scholar", link: "https://scholar.google.com"),
-      (text: "0000-0000-0000-0000", icon: "orcid", link: "https://orcid.org/0000-0000-0000-0000"),
+      (text: "Madyan Bagosher", icon: "linkedin", link: "https://www.linkedin.com/in/madyan-bagsheir-6b5847198"),
+      (text: "Google Scholar", icon: "google-scholar", link: "https://scholar.google.com/citations?user=Q9mCyCUAAAAJ&hl=en"),
+      (text: "0009-0004-7884-3515", icon: "orcid", link: "https://orcid.org/0009-0004-7884-3515"),
+      (text: "Kaggle", icon: "kaggle", link: "https://www.kaggle.com/madyanomar"),
     ),
   ),
   profile-picture: none,
@@ -318,7 +316,7 @@ def gen_education(about):
         year = strip_markdown(row.get("Year", ""))
         degree = escape_typst(row.get("Degree", ""))
         institution = escape_typst(row.get("Institution", ""))
-        dissertation = escape_typst(row.get("Dissertation/Thesis", ""))
+        dissertation = escape_typst(row.get("Thesis/Final Project", ""))
         lines.append(
             f"#resume-entry(\n"
             f"  title: [{degree}],\n"
@@ -670,9 +668,9 @@ def main():
         gen_research_areas(research),
         gen_patents(research),
         #gen_awards(awards),
-        gen_books(research),
+        #gen_books(research),
         gen_publications(research),
-        gen_grants(research),
+        #gen_grants(research),
         gen_software(software),
         #gen_teaching(teaching),
         #gen_mentoring(teaching),
