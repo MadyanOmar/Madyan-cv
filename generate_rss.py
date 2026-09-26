@@ -18,7 +18,7 @@ import yaml
 from feedgen.feed import FeedGenerator
 
 # TODO: Update these with your site details
-# SITE_URL = "https://example.com"
+SITE_URL = "madyanomar.github.io/Madyan-cv"
 SITE_TITLE = "Madyan Bagosher's Blog"
 SITE_SUBTITLE = "Thoughts on data science, open-source software, and teaching."
 AUTHOR = {"name": "Madyan Bagosher", "email": "jane.doe@example.com"}
