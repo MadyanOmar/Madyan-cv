@@ -20,7 +20,7 @@ Several side projects built over the course of 4 years (Excluding research proje
 :::{card} Pathfinder Visualizer
 :link: https://github.com/MadyanOmar/PathfinderVisualizer
 ![mystmd](images/GBFS.gif)
-Interactive pathfinding algorithm visualizer built with JavaFX, demonstrating BFS, DFS, Greedy Best first search and A*.
+Interactive pathfinding algorithm visualizer built with JavaFX, demonstrating BFS, DFS, Greedy Best first search and A star.
 +++
 :::
 
