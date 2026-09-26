@@ -1,6 +1,6 @@
 ---
 title: About
-description: Biography, education, and academic appointments of Jane Doe.
+description: Biography, education, and academic appointments of Madyan Bagosher.
 keywords:
   - About
   - Biography
@@ -10,17 +10,17 @@ keywords:
 
 # About
 
-Dr. Jane Doe is an Assistant Professor in the Department of Computer Science at Example University. Her research focuses on developing open-source tools for data science and machine learning. She is the creator and maintainer of several widely used open-source Python packages. Dr. Doe's work bridges software engineering, data science, and artificial intelligence to make large-scale data analytics more accessible, reproducible, and intelligent.
+Dr. Madyan Bagosher is a Researh Assistant at University of Sharjah’s Department of
+computing & Informatics. His interests are mainly geospatial and time-series analysis, applications of generative artificial intelligence in building intelligent systems and multi-objective optimization for smart city applications. In summary, his interests falls at the intersection of algorithmic, geospatial and AI applications for sustainable smart city development.
 
 ---
 
 ## Education
 
-| Year | Degree | Institution | Dissertation/Thesis |
+| Year | Degree | Institution | Thesis/Final Project |
 |------|--------|-------------|---------------------|
-| 2020 | **Ph.D.** in Computer Science | Example University, USA | *Scalable machine learning for large-scale data analysis* |
-| 2016 | **M.S.** in Computer Science | Example University, USA | *Distributed computing frameworks for data-intensive applications* |
-| 2014 | **B.S.** in Computer Science | Example College, USA | *Efficient algorithms for graph processing* |
+| 2026 | **MSc** in AI | University of Sharjah, U.A.E. | *Efficient Geospatial Machine Learning for Heterogeneous Hyperlocal Georeferenced Datasets* |
+| 2023 | **BSc** in IT Multimedia | University of Sharjah, U.A.E. | *Machine Learning for Automatic Diagnosis* |
 
 ---
 
@@ -28,6 +28,6 @@ Dr. Jane Doe is an Assistant Professor in the Department of Computer Science at 
 
 | Period | Position |
 |--------|----------|
-| 2023--present | Assistant Professor, Department of Computer Science, Example University |
-| 2020--2023 | Postdoctoral Researcher, Data Science Lab, Example Institute |
-| 2018--2020 | Research Assistant, Department of Computer Science, Example University |
+| 2023--present | Research Assistant, Department of Computer Science, University of Sharjah |
+| 2023--2023 | Android App Development intern, Sharjah Academy for Astronomy, Space Sciences, and Technology |
+| 2021--2022 | Virtual Tour Developer, Marketing and Student Recruitment Department in University of Sharjah |

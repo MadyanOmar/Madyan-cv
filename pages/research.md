@@ -10,18 +10,18 @@ keywords:
 
 # Research
 
-Dr. Doe's research focuses on advancing open-source data science through machine learning and cloud computing.
+Madyan's research focuses on the intersection of AI and Geospatial processing for smart city applications.
 
 ## Research Areas
 
-- Data Science
-- Machine Learning
-- Open-Source Software Development
-- Cloud Computing
+- Smart Cities
+- AI, ML and DL
+- Geospatial Processing
+- GenAI
 
 ---
 
-## Patents
+<!-- ## Patents
 
 - J. Doe, J. Smith. "Method and system for automated data processing." U.S. Patent Application No. 12/345,678, filed January 2025.
 
@@ -31,32 +31,43 @@ Dr. Doe's research focuses on advancing open-source data science through machine
 
 - **J. Doe** (2026). *Data Science with Python*. Publisher Name. [https://example.com/book](https://example.com/book)
 
----
+--- -->
 
 ## Refereed Publications
 
-**Published**: 10 papers | **Citations**: 500+ | *h*-index: 8
+**Published**: 7 papers | **Citations**: 2 | *h*-index: 1
 
-:::{dropdown} 2026
+:::{dropdown} 2027
 :open:
 
-**J. Doe**, J. Smith, A. Johnson (2026). "Deep learning for geospatial analysis." *Journal of Data Science*, 15(3), 123--145. [https://doi.org/10.1234/example1](https://doi.org/10.1234/example1)
-
-A. Johnson, **J. Doe** (2026). "Scalable cloud computing for large datasets." *IEEE Transactions on Big Data*, 8(2), 456--470. [https://doi.org/10.1234/example2](https://doi.org/10.1234/example2)
+Isam Mashhour Al Jawarneh, **Madyan Omar Bagosher** (2027). "GeoAgent-MG-RAG: A multi-agent LLM framework with spatial knowledge graphs for context-aware urban planning and health analytics" *Information Processing & Management*, Volume 64, Issue 1, Part B. [https://doi.org/10.1016/j.ipm.2026.105086](https://doi.org/10.1016/j.ipm.2026.105086)
 
 :::
 
-:::{dropdown} 2025
-
-**J. Doe**, B. Williams (2025). "Open-source tools for reproducible research." *Nature Methods*, 22(1), 78--92. [https://doi.org/10.1234/example3](https://doi.org/10.1234/example3)
-
-C. Brown, **J. Doe**, D. Lee (2025). "Machine learning in environmental science." *Environmental Modelling & Software*, 150, 105--120. [https://doi.org/10.1234/example4](https://doi.org/10.1234/example4)
+:::{dropdown} 2026
+**Madyan Omar Bagosher**, Osman Abul (2026). "Urban Genesis: Multi-Agent System for Business Consultancy " *2026 IEEE FMEC* [https://doi.org/10.1109/ISCC65549.2025.11325937](https://doi.org/10.1109/ISCC65549.2025.11325937)
 
 :::
 
 ---
 
-## Grants
+:::{dropdown} 2025
+
+**Madyan Omar Bagosher**, Domenico Scotece (2025). "Enhancing Air Quality Forecasting using Time-Series Interpolation with Simple Moving Average and Deep Learning-Based Models" *2025 IEEE ISCC* [https://doi.org/10.1109/ISCC65549.2025.11325937](https://doi.org/10.1109/ISCC65549.2025.11325937)
+
+**Madyan Omar Bagosher**, Domenico Scotece, Isam Mashhour Al Jawarneh (2025). "LSTM based Method for Forecasting Hyperlocal Air Quality in Metropolitan Cities" *2025 IEEE ISCC*, [https://doi.org/10.1109/ISCC65549.2025.11326182](https://doi.org/10.1109/ISCC65549.2025.11326182)
+
+**Madyan Omar Bagosher**, Tala Mustafa, Mohammad Alsmirat (2025). "A Cost-Effective Framework for Predicting Parking Availability Using Geospatial Data and Machine Learning" *2025 IEEE ICICS* [https://doi.org/10.1109/ICICS65354.2025.11073109](https://doi.org/10.1109/ICICS65354.2025.11073109)
+
+**Madyan Omar Bagosher**, Isam Mashhour Al Jawarneh, Luca Foschini (2025). "Prompt to Path: LLM-Guided Multi-Objective Eco-Routing via Geohash-Compressed Urban Graphs" *2025 IEEE FLLM*, [https://doi.org/10.1109/FLLM67465.2025.11391234](https://doi.org/10.1109/FLLM67465.2025.11391234)
+
+Usama Habib, **Madyan Omar Bagosher**, Saber Elsayed (2025). "Real Time Evolutionary Optimization of Adaptive Disturbance Rejection Control for Mobile Robot" *2025 IEEE ICCA*, [https://doi.org/10.1109/ICCA66035.2025.11430853](https://doi.org/10.1109/ICCA66035.2025.11430853)
+
+:::
+
+---
+
+<!-- ## Grants
 
 ### Funded
 
@@ -77,4 +88,4 @@ J. Smith (PI), **J. Doe** (Co-PI). "Cloud Computing for Scientific Research." NS
 
 ### Pending
 
-**J. Doe** (PI). "AI-Driven Data Analytics Platform." NSF. $600,000. 2026--2029. (Submitted March 2026)
+**J. Doe** (PI). "AI-Driven Data Analytics Platform." NSF. $600,000. 2026--2029. (Submitted March 2026) -->

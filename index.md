@@ -1,7 +1,7 @@
 ---
-title: Jane Doe
-subtitle: Open-Source Software Engineer & Data Scientist
-description: Jane Doe, Assistant Professor at Example University, builds open-source tools for data science and machine learning.
+title: Madyan Bagosher
+subtitle: Research assistant
+description: Madyan Bagosher, Research assistant at University of Sharjah.
 # thumbnail: images/profile-thumbnail.webp
 ---
 
@@ -10,9 +10,9 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 :::{grid-item}
 :columns: 12 12 4 4
 
-```{image} logo.png
-:alt: Jane Doe
-:width: 95%
+```{image} Madyan.png
+:alt: Madyan Bagosher
+:width: 60%
 ```
 
 :::
@@ -20,22 +20,22 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 :::{grid-item}
 :columns: 12 12 8 8
 
-**Software Engineer** | **Data Scientist**
+**Researcher** | **Geospatial scientist**
 
-[Department of Computer Science](https://example.com/cs), Example University
+[Department of Computer Science](https://www.sharjah.ac.ae/Academics/CI/Computer-Science), University of Sharjah
 
-[123 Science Building](https://maps.google.com), Anytown, ST 12345
+[College of Computing & Informatics](https://www.google.com/maps/search/university+of+sharjah+college+of+computing+and+informatics/@25.3057321,55.4502125,14.5z?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D), A9, University City, Sharjah
 
-[jane.doe@example.com](mailto:jane.doe@example.com) | [example.com](https://example.com)
+[U23200049@sharjah.ac.ae](mailto:U23200049@sharjah.ac.ae)
 
-**Research Interests:** Data Science, Machine Learning, Open-Source Software Development, Cloud Computing
+**Research Interests:** AI, Machine Learning, GenAI, Smart City
 
 [CV (PDF)](cv.pdf) |
-[Google Scholar](https://scholar.google.com) |
-[ORCID](https://orcid.org/0000-0000-0000-0000) |
-[LinkedIn](https://www.linkedin.com/in/username) |
-[GitHub](https://github.com/username) |
-[Twitter](https://twitter.com/username)
+[Google Scholar](https://scholar.google.com/citations?user=Q9mCyCUAAAAJ&hl=en) |
+[ORCID](https://orcid.org/0009-0004-7884-3515) |
+[LinkedIn](https://www.linkedin.com/in/madyan-bagsheir-6b5847198?utm_source=share_via&utm_content=profile&utm_medium=member_i) |
+[GitHub](https://github.com/MadyanOmar) |
+[Kaggle](https://www.kaggle.com/madyanomar)
 
 :::
 ::::
@@ -47,20 +47,20 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 ::::{grid} 2 2 4 4
 
 :::{card}
-:link: https://mystmd.org
-![mystmd](pages/images/myst.webp)
+:link: https://github.com/MadyanOmar/PathfinderVisualizer
+![mystmd](pages/images/GBFS.gif)
 +++
-**MyST**
+**Pathfinder Visualizer**
 :::
 
 :::{card}
-:link: https://jupyterbook.org
-![jupyter-book](pages/images/jupyter-book.webp)
+:link: https://github.com/MadyanOmar/Tic-Tac-Toe
+![jupyter-book](pages/images/TicTacToe.gif)
 +++
-**Jupyter Book**
+**Tic Tac Toe**
 :::
 
-:::{card}
+<!-- :::{card}
 :link: https://jupyter.org
 ![jupyter](pages/images/jupyter.webp)
 +++
@@ -72,7 +72,7 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 ![python](pages/images/python.webp)
 +++
 **Python**
-:::
+::: -->
 
 ::::
 
@@ -84,38 +84,18 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 
 :::{card} Publications 📚
 :link: pages/research
-10+ Refereed Publications
+7+ Refereed Publications
 :::
 
 :::{card} Software 💻
 :link: pages/software
-5+ Open-Source Projects
+2+ Open-Source Projects
 :::
 
-:::{card} Teaching 🎓
-:link: pages/teaching
-5+ Courses Taught
-:::
-
-:::{card} Talks 🎤
-:link: pages/talks
-10+ Invited Talks
-:::
-
-:::{card} Awards 🏆
-:link: pages/awards
-5+ Awards & Honors
-:::
-
-:::{card} Community 🌍
-:link: pages/services
-Professional & institutional service
-:::
-
-:::{card} Blog ✍️
+<!-- :::{card} Blog ✍️
 :link: pages/blog
 Thoughts on research, software, and teaching
-:::
+::: -->
 
 :::{card} News 📰
 :link: pages/news
@@ -128,9 +108,9 @@ Latest updates and milestones
 
 ## Recent News
 
-- **2026-04-01** - Launched personal website with MyST Markdown
-- **2026-03-15** - Published new paper on machine learning
-- **2026-02-01** - Released version 2.0 of open-source project
-- **2026-01-10** - Received Best Paper Award at Conference 2026
+- **2026-09-20** - Launched personal website with MyST Markdown
+- **2026-09-21** - Working on three projects and thesis
+- **2026-09-23** - Working on paper for IEEE ICC
+- **2026-09-24** - Running tests for Q1 journal publication
 
 [See all news →](pages/news)

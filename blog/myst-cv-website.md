@@ -62,7 +62,7 @@ To make the URL visible on your repository page, go to the repository's **About*
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/MadyanOmar/repo-name.git
 cd repo-name
 ```
 

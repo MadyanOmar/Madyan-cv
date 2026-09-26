@@ -85,7 +85,7 @@ The PDF is always available at a stable URL: `https://username.github.io/repo-na
 Clone the repository to your local machine and open it in your editor:
 
 ```bash
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/MadyanOmar/repo-name.git
 cd repo-name
 ```
 

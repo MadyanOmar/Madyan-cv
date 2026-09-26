@@ -1,15 +1,15 @@
 ---
-title: Software
-description: Open-source software projects created and maintained by Jane Doe.
+title: Side Projects
+description: Open-source software projects created and maintained by Madyan Bagosher.
 keywords:
   - Open-source Software
   - Python
   - Data Science
 ---
 
-# Open-Source Software
+# Side projects
 
-Dr. Doe is the creator and maintainer of several open-source software packages for data science and machine learning.
+Several side projects built over the course of 4 years (Excluding research projects)
 
 ---
 
@@ -18,20 +18,20 @@ Dr. Doe is the creator and maintainer of several open-source software packages f
 ::::{grid} 2 2 4 4
 
 :::{card}
-:link: https://mystmd.org
-![mystmd](images/myst.webp)
+:link: https://github.com/MadyanOmar/PathfinderVisualizer
+![mystmd](images/GBFS.gif)
 +++
-**MyST**
+**Pathfinder Visualizer**
 :::
 
 :::{card}
-:link: https://jupyterbook.org
-![jupyter-book](images/jupyter-book.webp)
+:link: https://github.com/MadyanOmar/Tic-Tac-Toe
+![jupyter-book](images/TicTacToe.gif)
 +++
-**Jupyter Book**
+**Tic Tac Toe**
 :::
 
-:::{card}
+<!-- :::{card}
 :link: https://jupyter.org
 ![jupyter](images/jupyter.webp)
 +++
@@ -43,28 +43,28 @@ Dr. Doe is the creator and maintainer of several open-source software packages f
 ![python](images/python.webp)
 +++
 **Python**
-:::
+::: -->
 
 ::::
 
 ---
 
-## Python Packages
+<!-- ## Python Packages
 
 ::::{grid} 1 2 3 3
 
 :::{card} project-alpha
-:link: https://github.com/username/project-alpha
+:link: https://github.com/MadyanOmar/project-alpha
 A Python package for data analysis and visualization
 :::
 
 :::{card} project-beta
-:link: https://github.com/username/project-beta
+:link: https://github.com/MadyanOmar/project-beta
 Machine learning utilities for scientific computing
 :::
 
 :::{card} project-gamma
-:link: https://github.com/username/project-gamma
+:link: https://github.com/MadyanOmar/project-gamma
 Cloud computing tools for large-scale data processing
 :::
 
@@ -77,13 +77,13 @@ Cloud computing tools for large-scale data processing
 ::::{grid} 1 2 3 3
 
 :::{card} data-dashboard
-:link: https://github.com/username/data-dashboard
+:link: https://github.com/MadyanOmar/data-dashboard
 Interactive data visualization dashboard
 :::
 
 :::{card} ml-explorer
-:link: https://github.com/username/ml-explorer
+:link: https://github.com/MadyanOmar/ml-explorer
 Machine learning model exploration tool
 :::
 
-::::
+:::: -->

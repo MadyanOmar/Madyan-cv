@@ -286,8 +286,8 @@ def gen_preamble():
     ),
     custom: (
       (text: "username", icon: "twitter", link: "https://twitter.com/username"),
-      (text: "Jane Doe", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
-      (text: "Jane Doe", icon: "google-scholar", link: "https://scholar.google.com"),
+      (text: "Madyan Bagosher", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
+      (text: "Madyan Bagosher", icon: "google-scholar", link: "https://scholar.google.com"),
       (text: "0000-0000-0000-0000", icon: "orcid", link: "https://orcid.org/0000-0000-0000-0000"),
     ),
   ),
@@ -304,7 +304,7 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Jane Doe - CV")"""
+#set document(title: "Madyan Bagosher - CV")"""
 
 
 def gen_education(about):
@@ -658,10 +658,10 @@ def main():
     about = read_file(pages, "about.md")
     research = read_file(pages, "research.md")
     software = read_file(pages, "software.md")
-    teaching = read_file(pages, "teaching.md")
-    talks = read_file(pages, "talks.md")
-    awards = read_file(pages, "awards.md")
-    services = read_file(pages, "services.md")
+    #teaching = read_file(pages, "teaching.md")
+    #talks = read_file(pages, "talks.md")
+    #awards = read_file(pages, "awards.md")
+    #services = read_file(pages, "services.md")
 
     sections = [
         gen_preamble(),
@@ -669,18 +669,18 @@ def main():
         gen_appointments(about),
         gen_research_areas(research),
         gen_patents(research),
-        gen_awards(awards),
+        #gen_awards(awards),
         gen_books(research),
         gen_publications(research),
         gen_grants(research),
         gen_software(software),
-        gen_teaching(teaching),
-        gen_mentoring(teaching),
-        gen_workshops(talks),
-        gen_invited_talks(talks),
-        gen_conf_proceedings(talks),
-        gen_conf_presentations(talks),
-        gen_services(services),
+        #gen_teaching(teaching),
+        #gen_mentoring(teaching),
+        #gen_workshops(talks),
+        #gen_invited_talks(talks),
+        #gen_conf_proceedings(talks),
+        #gen_conf_presentations(talks),
+        #gen_services(services),
     ]
 
     output = "\n\n".join(s for s in sections if s)

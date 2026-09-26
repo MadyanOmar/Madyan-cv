@@ -18,10 +18,10 @@ import yaml
 from feedgen.feed import FeedGenerator
 
 # TODO: Update these with your site details
-SITE_URL = "https://example.com"
-SITE_TITLE = "Jane Doe's Blog"
+# SITE_URL = "https://example.com"
+SITE_TITLE = "Madyan Bagosher's Blog"
 SITE_SUBTITLE = "Thoughts on data science, open-source software, and teaching."
-AUTHOR = {"name": "Jane Doe", "email": "jane.doe@example.com"}
+AUTHOR = {"name": "Madyan Bagosher", "email": "jane.doe@example.com"}
 LANGUAGE = "en"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.DOTALL)

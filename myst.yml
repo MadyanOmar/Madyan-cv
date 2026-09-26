@@ -1,10 +1,10 @@
 version: 1
 project:
-  title: Jane Doe
-  description: Personal website of Jane Doe, Assistant Professor at Example University, building open-source tools for data science.
+  title: Madyan Bagosher
+  description: Personal website of Madyan Bagosher, Research Assistant at University of Sharjah.
   # thumbnail: images/profile-thumbnail.webp
   # authors:
-  #   - name: Jane Doe
+  #   - name: Madyan Bagosher
   #     email: jane.doe@example.com
   #     orcid: 0000-0000-0000-0000
   #     url: https://example.com
@@ -13,7 +13,7 @@ project:
   copyright: '2026'
   keywords:
     - Data Science
-    - Open-source Software
+    - Data Structures & Algorithms
     - Machine Learning
   # github: username/repo
   exclude:
@@ -50,7 +50,7 @@ site:
   options:
     logo: logo.png
     logo_dark: logo.png
-    favicon: fav.ico
+    favicon: images/profile-thumbnail.png
     style: custom.css
     # analytics_google: G-XXXXXXXXXX
     folders: true
@@ -62,6 +62,6 @@ site:
     primary_sidebar_footer: ''
     footer: |
       [CV (PDF)](cv.pdf) |
-      [GitHub](https://github.com/username) |
-      [LinkedIn](https://www.linkedin.com/in/username) |
-      [Twitter](https://twitter.com/username)
+      [GitHub](https://github.com/MadyanOmar) |
+      [LinkedIn](https://www.linkedin.com/in/madyan-bagsheir-6b5847198?utm_source=share_via&utm_content=profile&utm_medium=member_i) |
+      [Kaggle](https://www.kaggle.com/madyanomar)
