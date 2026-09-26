@@ -21,18 +21,6 @@ Madyan's research focuses on the intersection of AI and Geospatial processing fo
 
 ---
 
-<!-- ## Patents
-
-- J. Doe, J. Smith. "Method and system for automated data processing." U.S. Patent Application No. 12/345,678, filed January 2025.
-
----
-
-## Books
-
-- **J. Doe** (2026). *Data Science with Python*. Publisher Name. [https://example.com/book](https://example.com/book)
-
---- -->
-
 ## Refereed Publications
 
 **Published**: 7 papers | **Citations**: 2 | *h*-index: 1
@@ -66,26 +54,3 @@ Usama Habib, **Madyan Omar Bagosher**, Saber Elsayed (2025). "Real Time Evolutio
 :::
 
 ---
-
-<!-- ## Grants
-
-### Funded
-
-:::{dropdown} As PI
-:open:
-
-**J. Doe** (PI). "Scalable Data Science Infrastructure." National Science Foundation (NSF). $500,000. 2024--2027.
-
-**J. Doe** (PI). "Open-Source Tools for Machine Learning." Department of Energy (DOE). $250,000. 2023--2025.
-
-:::
-
-:::{dropdown} As Co-PI
-
-J. Smith (PI), **J. Doe** (Co-PI). "Cloud Computing for Scientific Research." NSF. $750,000. 2024--2028.
-
-:::
-
-### Pending
-
-**J. Doe** (PI). "AI-Driven Data Analytics Platform." NSF. $600,000. 2026--2029. (Submitted March 2026) -->
