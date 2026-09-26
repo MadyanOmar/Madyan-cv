@@ -214,10 +214,12 @@ def parse_cards(text):
         name = m.group(1).strip()
         link = m.group(2).strip()
         desc = m.group(3).strip()
-        desc = re.sub(r"```\{image\}.*?```", "", desc, flags=re.DOTALL)
+        image_match = re.search(r"!\[[^\]]*\]\(([^)]+)\)", desc)
+        image = image_match.group(1) if image_match else ""
+        desc = re.sub(r"!\[[^\]]*\]\([^)]+\)", "", desc)
         desc = re.sub(r"\n+", " ", desc).strip()
         if name:
-            results.append((name, link, desc))
+            results.append((name, link, image, desc))
     return results
 
 
@@ -465,14 +467,25 @@ def gen_software(software):
         return ""
     lines = ["= Featured Projects", ""]
     items = []
-    for name, link, desc in cards:
+    for name, link, image, desc in cards:
         escaped_name = escape_typst(name)
         gh_path = link.replace("https://github.com/", "")
         gh_inline = f'#box(baseline: 1pt, fa-icon("github", fill: color-darknight)) #link("{link}")[{gh_path}]'
         if desc:
-            items.append(f"  - *{escaped_name}*: {escape_typst(desc)} ({gh_inline})")
+            project = (
+                f'#image("pages/{image}", width: 35%) '
+                f'\\\n'
+                f'*{escaped_name}*: {escape_typst(desc)} '
+                f'({gh_inline})'
+            )
         else:
-            items.append(f"  - *{escaped_name}* ({gh_inline})")
+            project = (
+                f'#image("pages/{image}", width: 35%) '
+                f'\\\n'
+                f'*{escaped_name}* ({gh_inline})'
+            )
+
+        items.append(f"  - {project}")
     lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
     return "\n".join(lines)
 
