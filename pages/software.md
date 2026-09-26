@@ -1,8 +1,8 @@
 ---
-title: Side Projects
+title: Featured Projects
 description: Open-source software projects created and maintained by Madyan Bagosher.
 keywords:
-  - Open-source Software
+  - Featured Projects
   - Python
   - Data Science
 ---

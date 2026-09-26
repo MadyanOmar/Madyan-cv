@@ -334,7 +334,7 @@ def gen_appointments(about):
     rows = parse_table(section)
     if not rows:
         return ""
-    lines = ["= Academic Appointments\n"]
+    lines = ["= Work Experience\n"]
     items = []
     for row in rows:
         period = escape_typst(row.get("Period", ""))
@@ -463,7 +463,7 @@ def gen_software(software):
     cards = parse_cards(software)
     if not cards:
         return ""
-    lines = ["= Open-Source Software", ""]
+    lines = ["= Featured Projects", ""]
     items = []
     for name, link, desc in cards:
         escaped_name = escape_typst(name)

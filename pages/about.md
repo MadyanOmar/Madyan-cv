@@ -1,11 +1,11 @@
 ---
 title: About
-description: Biography, education, and academic appointments of Madyan Bagosher.
+description: Biography, education, and work experience of Madyan Bagosher.
 keywords:
   - About
   - Biography
   - Education
-  - Appointments
+  - Work Experience
 ---
 
 # About
@@ -24,7 +24,7 @@ computing & Informatics. His interests are mainly geospatial and time-series ana
 
 ---
 
-## Appointments
+## Work Experience
 
 | Period | Position |
 |--------|----------|
