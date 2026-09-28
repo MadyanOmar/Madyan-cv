@@ -30,3 +30,4 @@ Several side projects built over the course of 4 years (Excluding research proje
 ![Tic Tac Toe](images/TicTacToe.gif)
 
 :::
+

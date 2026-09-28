@@ -17,8 +17,8 @@ A running log of updates, releases, publications, and milestones, organized by y
 - **2026** - Published first paper in Q1 Journal (Information Processing & Management) as second author. GeoAgent-MG-RAG: A multi-agent LLM framework with spatial knowledge graphs for context-aware urban planning and health analytics, will be made public in 2027.
 - **2026** - Published and presented *Urban Genesis: Multi-Agent System for Business Consultancy* at the 11th International Conference on Fog and Mobile Edge Computing (FMEC).
 - **2026** - Developed **Urban Genesis**, a multi-agent LLM framework for business consultancy integrating geospatial data, spatial indexing, retrieval-augmented generation, and multi-resolution urban analysis.
-- **2026** - Working on Elastic Space Time Boxes: SLA-Driven Spatiotemporal Middleware for Efficient IoT Telemetry. Targeting publication at IEEE ICC 2027.
-- **2026** - Continuing research and progress towards two more Q1 journal publications and the IEEE ICC submission while completing MSc thesis research in geospatial machine learning and spatiotemporal forecasting.
+<!-- - **2026** - Working on Elastic Space Time Boxes: SLA-Driven Spatiotemporal Middleware for Efficient IoT Telemetry. Targeting publication at IEEE ICC 2027.
+- **2026** - Continuing research and progress towards two more Q1 journal publications and the IEEE ICC submission while completing MSc thesis research in geospatial machine learning and spatiotemporal forecasting. -->
 
 :::
 
